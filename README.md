@@ -1,6 +1,13 @@
 # Password Validator
 
-In this project, we build a **Password Validator** using React (Hooks) and **Styled Components**.
+## Summary
+
+This project is a **Password Validator** built using **React Hooks** and **Styled Components**.  
+It validates a password based on its length and displays an error message when the password is invalid. The validation updates dynamically as the user types.
+
+A password is considered **valid** only if it contains **at least 8 characters**.
+
+---
 
 ## 📌 Project Overview
 
@@ -17,9 +24,9 @@ The Password Validator app checks whether the entered password is valid based on
 The app must work as follows:
 
 ### When the app is opened
-- The **error message should be displayed** (because the password is empty initially)
+- The **error message should be displayed**
 
-### When the user types in the input field (non-empty value)
+### When the user types in the input field
 - If the input length is **less than 8**, **show the error message**
 - If the input length is **8 or more**, **hide the error message**
 
@@ -27,34 +34,34 @@ The app must work as follows:
 
 ## 🧩 Implementation Files
 
-Update the code only in the below files:
+Use only the following files for implementation:
 
 - `src/components/PasswordValidator/index.js`
 - `src/components/PasswordValidator/styledComponents.js`
 
-> ⚠️ Do not change folder names or remove pre-filled code.
+> ⚠️ Do not remove any pre-filled code or rename folders.
 
 ---
 
-## 🎨 Styling Requirements (Important for Tests)
+## 🎨 Styling Requirements (Important)
 
-- Use **Styled Components** for styling
-- Apply **Roboto** as the `font-family` for the **Password Validator** heading
+- Use **Styled Components** for all styling
+- Apply **Roboto** font-family to the **Password Validator heading**
 
 ---
 
 ## 🎨 Design Files
 
-- Extra Small (Size < 576px) and Small (Size >= 576px)  
+- Extra Small and Small  
   https://assets.ccbp.in/frontend/content/react-js-hooks/password-validator-sm-output.png
 
-- Medium, Large, Extra Large - Empty Password  
+- Medium, Large, Extra Large – Empty Password  
   https://assets.ccbp.in/frontend/content/react-js-hooks/password-validator-empty-password-lg-output.png
 
-- Medium, Large, Extra Large - Invalid Password  
+- Medium, Large, Extra Large – Invalid Password  
   https://assets.ccbp.in/frontend/content/react-js-hooks/password-validator-invalid-password-lg-output.png
 
-- Medium, Large, Extra Large - Valid Password  
+- Medium, Large, Extra Large – Valid Password  
   https://assets.ccbp.in/frontend/content/react-js-hooks/password-validator-valid-password-lg-output.png
 
 ---
@@ -73,7 +80,7 @@ https://assets.ccbp.in/frontend/content/react-js-hooks/password-validator-output
 - `#383a4e`
 - `#475569`
 
-### Box Shadow Color
+### Box Shadow
 - `#434451`
 
 ### Text Colors
@@ -84,7 +91,7 @@ https://assets.ccbp.in/frontend/content/react-js-hooks/password-validator-output
 ---
 
 ## 🔤 Font Family
-- `Roboto`
+- Roboto
 
 ---
 
